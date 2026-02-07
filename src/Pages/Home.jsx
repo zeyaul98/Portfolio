@@ -124,6 +124,13 @@ const testimonials = [
   role: "Project Manager , Qmize",
   location: "Gaya, India",
   img: "https://static.vecteezy.com/system/resources/thumbnails/044/453/319/small/professional-indian-businessman-in-a-modern-office-working-intently-on-a-laptop-portraying-confidence-and-dedication-photo.jpg",
+},
+  {
+  text: `Working alongside him at Wilson Wings has been a great experience. He is highly skilled, detail-oriented, and consistently delivers reliable and scalable solutions. He collaborates well with the team, communicates technical ideas clearly, and is always willing to take initiative when challenges arise. His problem-solving mindset and commitment to quality make him a strong developer and a valuable teammate.`,
+  name: "Alshia Perween",
+  role: "Software Developer, Wilson Wings",
+  location: "Bengaluru, India",
+  img: "https://media.istockphoto.com/id/1171173195/photo/portrait-of-cheerful-female-programmer-enjoying-time-with-laptop-computer-and-distance-job.jpg?s=612x612&w=0&k=20&c=6vDQ8RF2fDHVhm5TT6YpOCn4cSjXzo9Jw22XO5WmWBQ="
 }
 
 
