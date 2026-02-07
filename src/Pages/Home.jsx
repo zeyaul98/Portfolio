@@ -939,7 +939,7 @@ Message: ${message}`;
           </label>
           <input
             type="email"
-            placeholder="hello@gmail.com"
+            placeholder="Your Number"
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
