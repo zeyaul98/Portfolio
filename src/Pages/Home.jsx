@@ -935,7 +935,7 @@ Message: ${message}`;
         {/* Email */}
         <div>
           <label className="block mb-2 font-medium">
-            Email
+            Whatsapp Number
           </label>
           <input
             type="email"
