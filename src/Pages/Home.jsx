@@ -7,6 +7,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { ChevronDown } from "lucide-react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
+import cyberimg from "../assets/cyberhub.png";
 import {
   ArrowRight,
   Download,
