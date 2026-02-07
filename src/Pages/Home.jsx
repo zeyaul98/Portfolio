@@ -73,7 +73,7 @@ const projects = [
     title: "CyberHub - Onine Cafe",
     description:
       "A modern web platform that enables users to discover and book premium wellness experiences such as saunas, yoga, massages, and float tanks. Features include real-time availability, secure payments, and instant booking confirmations.",
-    image:'../src/assets/cyberhub.png',
+    image:{cyberimg},
     tags: [
       "React.js",
       "Tailwind CSS",
