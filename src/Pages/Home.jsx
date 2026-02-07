@@ -221,7 +221,7 @@ Message: ${message}`;
             "url": "https://zeyaulhaque.in",
             "sameAs": [
               "https://github.com/zeyaul98",
-              "https://www.linkedin.com/in/zeyaul-haque"
+              "https://www.linkedin.com/in/zeyaul-haque-6929b828a/"
             ]
           })}
         </script>
@@ -351,7 +351,7 @@ Message: ${message}`;
   className="flex justify-center gap-4"
 >
   {[
-    { Icon: Linkedin, url: "https://www.linkedin.com/in/zeyaul-haque" },
+    { Icon: Linkedin, url: "https://www.linkedin.com/in/zeyaul-haque-6929b828a/" },
     { Icon: Github, url: "https://github.com/zeyaul98" },
     { Icon: Instagram, url: "https://instagram.com/yourusername" },
     { Icon: Twitter, url: "https://twitter.com/yourusername" },
