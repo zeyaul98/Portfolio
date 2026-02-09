@@ -7,7 +7,6 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { ChevronDown } from "lucide-react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import cyberimg from "../assets/cyberhub.png";
 import {
   ArrowRight,
   Download,
@@ -26,10 +25,11 @@ const Home = () => {
 const techs = [
   { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
   { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-  { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+  { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" },
+  { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"},
+  { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg"},
   { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
   { name: "Redux", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" },
-  { name: "Next.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" },
   { name: "Vue", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" },
   { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
   { name: "Express", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
@@ -51,9 +51,8 @@ const experiences = [
     role: "Full Stack Developer (Intern)",
     date: "45 days, June 2025",
     description:
-      "Worked as a Full Stack developer at Dragon Sino Group. Created fully functional MERN Stack Web Applications with responsive behavior, smooth touch UI, and API Integration.",
+      "Worked as a Full Stack developer at Dragon Sino Group. Created fully functional MERN Stack Web Application (Travlo) with responsive behavior, smooth touch UI, and API Integration.",
     skills: [
-      "TypeScript",
       "React.js",
       "Tailwind CSS",
       "Node.js",
@@ -69,11 +68,11 @@ const experiences = [
 
 const projects = [
   {
-    seen: "Calm Llama - AI Chatbot",
+    seen: "CyberHub - Onine Cafe",
     title: "CyberHub - Onine Cafe",
     description:
       "A modern web platform that enables users to discover and book premium wellness experiences such as saunas, yoga, massages, and float tanks. Features include real-time availability, secure payments, and instant booking confirmations.",
-    image:{cyberimg},
+    image:'./src/assets/cyberhub.png',
     tags: [
       "React.js",
       "Tailwind CSS",
@@ -124,13 +123,6 @@ const testimonials = [
   role: "Project Manager , Qmize",
   location: "Gaya, India",
   img: "https://static.vecteezy.com/system/resources/thumbnails/044/453/319/small/professional-indian-businessman-in-a-modern-office-working-intently-on-a-laptop-portraying-confidence-and-dedication-photo.jpg",
-},
-  {
-  text: `Working alongside him at Wilson Wings has been a great experience. He is highly skilled, detail-oriented, and consistently delivers reliable and scalable solutions. He collaborates well with the team, communicates technical ideas clearly, and is always willing to take initiative when challenges arise. His problem-solving mindset and commitment to quality make him a strong developer and a valuable teammate.`,
-  name: "Alshia Perween",
-  role: "Software Developer, Wilson Wings",
-  location: "Bengaluru, India",
-  img: "https://media.istockphoto.com/id/1171173195/photo/portrait-of-cheerful-female-programmer-enjoying-time-with-laptop-computer-and-distance-job.jpg?s=612x612&w=0&k=20&c=6vDQ8RF2fDHVhm5TT6YpOCn4cSjXzo9Jw22XO5WmWBQ="
 }
 
 
@@ -206,33 +198,50 @@ Message: ${message}`;
     <>
 
     <Helmet>
-        <title>Zeyaul Haque | MERN Stack Developer</title>
-        <meta
-          name="description"
-          content="Fresher MERN Stack Developer skilled in MongoDB, Express, React, and Node.js."
-        />
-        <meta
-          name="keywords"
-          content="MERN Developer, React Developer, Node Developer"
-        />
-        <link
-          rel="canonical"
-          href="https://zeyaulhaque.in/"
-        />
-         <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Zeyaul Haque",
-            "jobTitle": "MERN Stack Developer",
-            "url": "https://zeyaulhaque.in",
-            "sameAs": [
-              "https://github.com/zeyaul98",
-              "https://www.linkedin.com/in/zeyaul-haque-6929b828a/"
-            ]
-          })}
-        </script>
-      </Helmet>
+  {/* Basic SEO */}
+  <title>Zeyaul Haque | MERN Stack Developer</title>
+  <meta
+    name="description"
+    content="MERN Stack Developer specializing in React, Node.js, Express, and MongoDB. Passionate about building fast, scalable web applications."
+  />
+  <meta
+    name="keywords"
+    content="Zeyaul Haque, MERN Developer, React Developer, Node.js Developer, Full Stack Developer"
+  />
+  <meta name="author" content="Zeyaul Haque" />
+
+  {/* Canonical */}
+  <link rel="canonical" href="https://zeyaulhaque.in/" />
+
+  {/* Open Graph – LinkedIn / WhatsApp */}
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Zeyaul Haque | MERN Stack Developer" />
+  <meta
+    property="og:description"
+    content="Portfolio of Zeyaul Haque – MERN Stack Developer skilled in React, Node.js, Express, and MongoDB."
+  />
+  <meta property="og:url" content="https://zeyaulhaque.in/" />
+  <meta property="og:image" content="https://zeyaulhaque.in/og-image.png" />
+
+  {/* Viewport */}
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {/* Schema.org Person */}
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Zeyaul Haque",
+      jobTitle: "MERN Stack Developer",
+      url: "https://zeyaulhaque.in",
+      sameAs: [
+        "https://github.com/zeyaul98",
+        "https://www.linkedin.com/in/zeyaul-haque-6929b828a/"
+      ]
+    })}
+  </script>
+</Helmet>
+
 
 
     {/* Home section */}
@@ -340,14 +349,16 @@ Message: ${message}`;
        <Link to="/projects" className="flex items-center gap-2">View Projects <ArrowRight  size={16} /> </Link>
       </button>
 
-      <button
-        className="flex items-center gap-2 px-6 py-3 rounded-full
-          border border-black/10 dark:border-white/10
-          text-gray-800 dark:text-gray-200
-          hover:bg-gray-100 dark:hover:bg-zinc-900 transition"
-      >
-        Download CV <Download size={16} />
-      </button>
+      <a href="/Zeyaul_Haque_CV.pdf" target="_blank" rel="noopener noreferrer">
+        <button
+          className="flex items-center gap-2 px-6 py-3 rounded-full
+            border border-black/10 dark:border-white/10
+            text-gray-800 dark:text-gray-200
+            hover:bg-gray-100 dark:hover:bg-zinc-900 transition"
+        >
+          View CV <Download size={16} />
+        </button>
+      </a>
     </motion.div>
 
     {/* Social Icons */}
@@ -360,7 +371,7 @@ Message: ${message}`;
   {[
     { Icon: Linkedin, url: "https://www.linkedin.com/in/zeyaul-haque-6929b828a/" },
     { Icon: Github, url: "https://github.com/zeyaul98" },
-    { Icon: Instagram, url: "https://instagram.com/yourusername" },
+    { Icon: Instagram, url: "https://instagram.com/zeyaul_98" },
     { Icon: Twitter, url: "https://twitter.com/yourusername" },
   ].map(({ Icon, url }, i) => (
     <a
@@ -432,7 +443,7 @@ Message: ${message}`;
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto overflow-hidden py-10 
+      <div className="max-w-6xl mx-auto rounded-4xl overflow-hidden py-10 
   bg-white dark:bg-zinc-950 transition-colors"
 >
   <motion.div
@@ -942,11 +953,11 @@ Message: ${message}`;
         {/* Email */}
         <div>
           <label className="block mb-2 font-medium">
-            Whatsapp Number
+            Email
           </label>
           <input
             type="email"
-            placeholder="Your Number"
+            placeholder="hello@gmail.com"
             required
             value={email}
             onChange={(e) => setEmail(e.target.value)}
