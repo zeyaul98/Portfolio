@@ -21,7 +21,7 @@ const Mainblog = () => {
   return (
     <div className="bg-gray-100 min-h-screen">
 
-      <div className="max-w-7xl mx-auto flex relative">
+      <div className=" flex relative">
 
         {/* ================= MOBILE HEADER ================= */}
         <div className="lg:hidden fixed top-0 left-0 right-0 bg-white shadow-sm flex items-center justify-between px-4 py-3 z-40">
@@ -34,7 +34,7 @@ const Mainblog = () => {
 
         {/* ================= SIDEBAR ================= */}
         <div
-          className={`fixed lg:sticky top-0 left-0 h-screen w-72 bg-white shadow-lg lg:shadow-none p-8 transform transition-transform duration-300 z-50
+          className={`fixed lg:sticky top-0 left-0 h-screen w-90 px-10 bg-white shadow-lg lg:shadow-none p-8 transform transition-transform duration-300 z-50
           ${open ? "translate-x-0" : "-translate-x-full"} lg:translate-x-0`}
         >
           {/* Close button mobile */}
