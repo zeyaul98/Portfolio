@@ -264,7 +264,7 @@ Message: ${message}`;
   <div className="relative flex items-center justify-center">
 
     {/* Glow Ring */}
-    <div className="absolute w-40 h-40 rounded-full 
+    <div className="absolute w-44 h-44 rounded-full 
       bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 
       animate-spin blur-md opacity-70">
     </div>
@@ -273,7 +273,7 @@ Message: ${message}`;
     <img
       src={profile}
       alt="Profile"
-      className="relative w-32 h-32 rounded-full 
+      className="relative w-40 h-40 rounded-full 
       object-cover object-top
       border-4 border-white dark:border-black
       shadow-xl"
