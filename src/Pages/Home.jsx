@@ -256,19 +256,31 @@ Message: ${message}`;
 
     {/* Profile Image */}
     <motion.div
-      initial={{ opacity: 0, scale: 0.8 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 0.6 }}
-      className="flex justify-center mb-6"
-    >
-      <img
-        src={profile}
-        alt="Profile"
-        className="w-32 h-32 rounded-full object-cover
-          border border-black/10 dark:border-white/10
-          shadow-lg dark:shadow-black/40"
-      />
-    </motion.div>
+  initial={{ opacity: 0, scale: 0.8 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.6 }}
+  className="flex justify-center mb-8"
+>
+  <div className="relative flex items-center justify-center">
+
+    {/* Glow Ring */}
+    <div className="absolute w-40 h-40 rounded-full 
+      bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 
+      animate-spin blur-md opacity-70">
+    </div>
+
+    {/* Profile Image */}
+    <img
+      src={profile}
+      alt="Profile"
+      className="relative w-32 h-32 rounded-full 
+      object-cover object-top
+      border-4 border-white dark:border-black
+      shadow-xl"
+    />
+
+  </div>
+</motion.div>
 
     {/* Availability Badge */}
     <motion.div
