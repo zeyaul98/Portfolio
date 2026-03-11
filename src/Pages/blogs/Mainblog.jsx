@@ -7,14 +7,7 @@ const Mainblog = () => {
   const [open, setOpen] = useState(false);
 
   const blogs = [
-    {
-  id: 2,
-  title: "Understanding the MERN Stack (Complete Guide)",
-  description:
-    "A beginner friendly guide explaining MongoDB, Express.js, React.js and Node.js, and how they work together to build modern full stack web applications.",
-  image:
-    "https://i.pinimg.com/736x/2e/c1/be/2ec1beb12df88032782f21992408e3ae.jpg",
-},
+   
     {
       id: 1,
       title: "Redis Setup & Caching in MERN Stack",
@@ -23,6 +16,14 @@ const Mainblog = () => {
       image:
         "https://i.pinimg.com/1200x/a7/2d/8d/a72d8d789c59e4b0cdb9a515a54730b7.jpg",
     },
+     {
+  id: 2,
+  title: "Understanding the MERN Stack (Complete Guide)",
+  description:
+    "A beginner friendly guide explaining MongoDB, Express.js, React.js and Node.js, and how they work together to build modern full stack web applications.",
+  image:
+    "https://i.pinimg.com/736x/2e/c1/be/2ec1beb12df88032782f21992408e3ae.jpg",
+},
     
   ];
 
