@@ -59,7 +59,7 @@ const Blog2 = () => {
 
           {/* Hero Image */}
           <img
-            src="/mern.jpg"
+            src="https://i.pinimg.com/1200x/b2/7a/e0/b27ae09634ece49118b68e4dd128a900.jpg"
             alt="MERN Stack"
             className="w-full rounded-2xl mb-8"
           />
@@ -95,7 +95,7 @@ const Blog2 = () => {
           />
 
           <img
-            src="/mongodb.png"
+            src="https://i.pinimg.com/736x/39/29/81/39298130a307f337f2bc9fe2285d2950.jpg"
             alt="MongoDB"
             className="rounded-xl shadow-md my-8"
           />
@@ -130,7 +130,7 @@ app.listen(5000);`}
           />
 
           <img
-            src="/react.png"
+            src="https://i.pinimg.com/736x/db/07/2e/db072e159e7097cce86de7071c50f99c.jpg"
             alt="React"
             className="rounded-xl shadow-md my-8"
           />
@@ -145,7 +145,7 @@ app.listen(5000);`}
           />
 
           <img
-            src="/node.png"
+            src="https://i.pinimg.com/1200x/25/f0/f5/25f0f58d8f643a80335e5360f5ae3fc9.jpg"
             alt="Node JS"
             className="rounded-xl shadow-md my-8"
           />
