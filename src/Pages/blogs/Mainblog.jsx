@@ -8,15 +8,15 @@ const Mainblog = () => {
 
   const blogs = [
     {
-  id: 1,
+  id: 2,
   title: "Understanding the MERN Stack (Complete Guide)",
   description:
     "A beginner friendly guide explaining MongoDB, Express.js, React.js and Node.js, and how they work together to build modern full stack web applications.",
   image:
-    "https://i.pinimg.com/1200x/6f/89/6b/6f896b0e1a7c7e8d71c98b9cbb1cbd34.jpg",
+    "https://i.pinimg.com/736x/2e/c1/be/2ec1beb12df88032782f21992408e3ae.jpg",
 },
     {
-      id: 2,
+      id: 1,
       title: "Redis Setup & Caching in MERN Stack",
       description:
         "Learn how to install Redis, integrate it with Express.js and improve API performance in production-level applications.",
