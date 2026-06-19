@@ -20,7 +20,7 @@ const projects = [
     title: "Bihar Railway FIR Management System",
     description:
       "A comprehensive Railway FIR Management System developed for Bihar Railway Police to streamline FIR registration, case tracking, accused management, bail management, and report generation. The platform provides role-based access, advanced search functionality, real-time dashboards, and secure data management to improve efficiency and transparency in criminal case handling.",
-    image: "/FIR_Management.png",
+    image: "/FIR.png",
     tags: [
       "React.js",
     "Node.js",
