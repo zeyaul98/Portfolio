@@ -88,21 +88,26 @@ const projects = [
     link: "https://chatify-vcl0.onrender.com/",
   },
   {
-    seen: "CyberHub - Onine Cafe",
-    title: "CyberHub - Onine Cafe",
-    description:
-      "A modern online cyber cafe platform where users can access digital services, explore government-related facilities, and easily connect for online form submissions and document services.",
-    image:'/cyberhub.png',
-    tags: [
-      "React.js",
-      "Tailwind CSS",
-      "framer-motion",
-      "user-friendly UI",
-      "contact-form",
-      "Aceternity UI",
-    ],
-    link: "https://cyber-hub-gaya.vercel.app/",
-  },
+  title: "Bihar Railway FIR Management System",
+  description:
+    "A comprehensive Railway FIR Management System developed for Bihar Railway Police to streamline FIR registration, case tracking, accused management, bail management, and report generation. The platform provides role-based access, advanced search functionality, real-time dashboards, and secure data management to improve efficiency and transparency in criminal case handling.",
+  image: "/FIR_Management.png",
+  tags: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "JWT Authentication",
+    "Role-Based Access",
+    "FIR Management",
+    "Case Tracking",
+    "Dashboard Analytics",
+    "CSV Upload",
+    "REST API"
+  ],
+  link: "https://fir-managment-system-two.vercel.app",
+}
 ];
 
 const testimonials = [
