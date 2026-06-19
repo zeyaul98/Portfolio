@@ -15,8 +15,34 @@ const projects = [
     accentColor: "text-blue-600",
     emoji: "💬",
   },
-   {
+  {
     id: 2,
+    title: "Bihar Railway FIR Management System",
+    description:
+      "A comprehensive Railway FIR Management System developed for Bihar Railway Police to streamline FIR registration, case tracking, accused management, bail management, and report generation. The platform provides role-based access, advanced search functionality, real-time dashboards, and secure data management to improve efficiency and transparency in criminal case handling.",
+    image: "/FIR_Management.png",
+    tags: [
+      "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "JWT Authentication",
+    "Role-Based Access",
+    "FIR Management",
+    "Case Tracking",
+    "Dashboard Analytics",
+    "CSV Upload",
+    "REST API"
+  ],
+  link: "https://fir-managment-system-two.vercel.app",
+  github: "https://github.com/zeyaul98/FIR-MANAGMENT-SYSTEM",
+    cardBg: "bg-red-50",
+    accentColor: "text-blue-600",
+    emoji: "🚂",
+},
+   {
+    id: 3,
     title: "Pixora - Image Downloader",
     description:
       "A Pinterest-style media search platform where users can explore and download high-quality images, videos, and GIFs instantly. Built using React and Redux Toolkit to practice advanced state management, API handling, infinite scrolling, and responsive UI design.",
@@ -38,7 +64,7 @@ const projects = [
     emoji: "🖼️",
   },
   {
-    id: 3,
+    id: 4,
     title: "CyberHub - Online Cafe",
     description:
       "A modern online cyber cafe platform where users can access digital services, explore government-related facilities, and easily connect for online form submissions and document services.",
@@ -51,7 +77,7 @@ const projects = [
     emoji: "🖥️",
   },
   {
-    id: 4,
+    id: 5,
     title: "MSG 24X7 - Whatsapp API Business Offer - FreeLancer",
     description:
       "Developed a modern freelancer business platform for WhatsApp API services with responsive design, smooth animations, and user-friendly sections for client engagement and service promotion.",
